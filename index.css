@@ -114,7 +114,7 @@ a{
     p{
         font-size: 22px;
         font-weight: 600;
-        line-height: 1,3;
+        line-height: 1.3;
     }
 }
 
@@ -131,4 +131,44 @@ a{
 
 .botao:hover{
     background: var(--caixa-dagua);
+}
+
+.secao{
+    margin-top: 96px;
+}
+
+.titulo-secao{
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card{
+    background: var(--branco);
+    border: 3px solid var(--tinta);
+    flex: 1 1 340px;
+
+    .foto{
+        font-size: 170px;
+        background: var(--concreto-escuro);
+    }
+
+    
+}
+
+.foto-azul{
+    background: var(--caixa-dagua);
+}
+
+.foto-amarela{
+    background: var(--fita);
+}
+
+.foto-tinta{
+    background: var(--tinta);
 }
