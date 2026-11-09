@@ -154,11 +154,18 @@ a{
     flex: 1 1 340px;
 
     .foto{
-        font-size: 170px;
-        background: var(--concreto-escuro);
-    }
+        height: 170px;
+   }
 
-    
+   h3{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+}
+
+.foto{
+    background-color: var(--concreto-escuro);
 }
 
 .foto-azul{
@@ -166,9 +173,23 @@ a{
 }
 
 .foto-amarela{
-    background: var(--fita);
+    background-color: var(--fita);
 }
 
 .foto-tinta{
-    background: var(--tinta);
+    background-color: var(--tinta);
+}
+
+.card-texto{
+    padding: 24px;
+}
+
+.card-info{
+    margin-top: 20px;
+    padding-top: 16px;
+    border: 2px solid --concreto-escuro;
+    font-weight: 600;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
 }
