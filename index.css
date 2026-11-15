@@ -242,3 +242,12 @@ a{
     margin-bottom: 12px;
 }
 
+@media (max-width: 800px){
+    .cartazes, .passos, .rodape-colunas{
+        flex-direction: column;
+    }
+
+    .cartaz-principal h1{
+        font-size: 18px;
+    }
+}

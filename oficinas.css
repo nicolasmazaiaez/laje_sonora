@@ -208,5 +208,17 @@ a{
     }
 }
 
+@media (max-width: 800px){
+    .oficina, .rodape-colunas{
+        align-items: stretch;
+        flex-direction: column;
+    }
 
+    .titulo-pagina{
+        font-size: 96px;
+    }
 
+    .oficina .foto, .oficina-detalhes{
+        width: 100%;
+    }
+}
